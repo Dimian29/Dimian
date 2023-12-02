@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: #56c00f;
+}
+.align-right {
+    text-align: center;
+}
+
+/* Menghilangkan tampilan jumlah anak jika status bukan "Kawin" */
+.belum-kawin .jumlah-anak {
+    display: none;
+}
